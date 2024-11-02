@@ -1,0 +1,283 @@
+body,html{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background-color: #0D1117;
+}
+.invisible{
+    color: #fff;       
+    width: 15%;
+}
+
+.gestion {
+    background-color: #0D1117;
+}
+.visible {
+    display: flex;
+    align-items: center;
+    overflow-x: auto; /* Aparece la barra de desplazamiento horizontal cuando el contenido excede el ancho */
+    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+    width: 100%;
+    white-space: nowrap; /* Evita el retorno de línea del contenido */
+}
+
+.categorias {
+    flex-shrink: 0;
+    margin-right: 10px; /* Ajusta el margen entre los elementos */
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.visible::-webkit-scrollbar {
+    height: 10px; /* Ajusta la altura de la barra de desplazamiento */
+}
+
+.visible::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.visible::-webkit-scrollbar-thumb {
+    background: #888; /* Cambia el color del thumb de la barra de desplazamiento */
+}
+
+.visible::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cambia el color del thumb de la barra de desplazamiento cuando se pasa el mouse */
+}
+
+
+img{
+    width: 100px;
+}
+header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #0D1117;
+    min-width: 90%;
+    max-height: 100px;
+    position: absolute;
+}
+
+.categorias{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    padding: 0px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+    color: #fff;
+    background-color: #212b3a;
+    border: none;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: all 500ms;
+}
+
+.span-p::first-letter {
+    text-transform: uppercase;
+}
+
+.categorias:hover {
+    height: 70px;
+  }
+
+
+.span-p{
+    position: relative;
+    transform: translateY(10px);
+    transition: all 500ms;
+    font-family: "montserrat", sans-serif;
+    text-decoration: none;
+}  
+.span-s span input{
+    margin: 0px 7px;
+    width: 0px;
+    transition: all 500ms;
+
+
+}
+
+.categorias:hover span input{
+    width: 20px;
+    
+}
+span  input:hover{
+    transform: scale(1.1);
+}
+
+.span-s span{
+    display: flex;
+}
+
+
+.rol{
+    width: 10%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #93e4f64c;
+    border-radius: 25px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+.titulo_rol{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 12%;
+    height: 100%;
+    background-color: #fff;
+
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.note .logo_solo{
+    margin-top: 20px;
+    width: 100px;
+}
+
+.note .nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+}
+.note .nombre h1{
+    font-size: 15px;
+}
+.note .nombre img{
+    margin-left: 5px;
+    width: 25px;
+}
+
+
+
+.observacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+    padding: 0px 10px;
+}
+.observar{
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #212b3a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+
+}
+.observar:hover{
+transform: scale(1.1);
+}
+
+.exit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED1C24;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    padding: 5px 25px;
+    transition: all 1s;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+.exit:hover{
+    transform: scale(1.1);
+}
+.normalizar{
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 15%;
+}
+.normalizar p{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a_roles{
+    height: auto;
+    transition: all 500ms;
+}
+.a_roles:hover{
+    transform: scale(1.1);
+}
+.roles{
+    width: 80px
+}
+
+body::-webkit-scrollbar {
+    width: 10px; 
+    padding: 5px;
+    transition: all 500ms;
+    transition: background-color 0.3s ease; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    padding: 5px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ffffff; 
+    border-radius: 5px;  
+    transition: all 500ms;
+    transition: background-color 0.3s ease;  
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #e6e6e6;  
+    transition: all 500ms;
+    transition: background-color 0.3s ease; 
+  }
+  body {
+    background-color: #0D1117;
+}

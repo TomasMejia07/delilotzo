@@ -1,0 +1,118 @@
+body,html{
+  font-family: "Montserrat", sans-serif;
+}
+.cont_all{
+  
+  background-color: #212b3a;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin-top: 150px;
+  padding: 0;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 600 !important; 
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #212b3a !important;
+
+}
+
+.reminder-list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.reminder-list h2{
+  color: #ffffff;
+}
+
+.reminder-list h2 span{
+  color: #fff;
+}
+
+.reminder-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: slideInFromBottom 1s ease;
+  cursor: pointer;
+}
+
+.reminder-title {
+  font-size: 18px;
+  height: 35px;
+  font-weight: bold;
+  margin-top: 0;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+.reminder-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.reminder-date {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #888;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.reminder-priority {
+  font-size: 14px;
+  color: #888;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.reminder-item:hover {
+  background-color: #fdfbfb;
+}
+
+.reminder-item.selected {
+  background-color: #212b3a;
+}
+
+.imgDesplegar{
+  width: 25px;
+}
+.spanDesplegar{
+  width: auto;
+  display: flex;
+
+  justify-content: center;
+}
+

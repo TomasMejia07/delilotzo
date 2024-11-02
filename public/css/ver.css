@@ -1,0 +1,98 @@
+/* styles.css */
+body,html{
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    color: #fff;
+    
+}
+
+.pedido {
+    border: 1px solid #fff !important;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.detalle {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+h2 {
+    color: #fff;
+}
+
+.detalles {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.detalle p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.formElimnar {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.btnEliminar {
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ED1C24;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.btnEliminar:hover {
+    background-color: #e21d24;
+}
+
+.pedido-detalles {
+    display: none;
+    color: #fff;
+}
+
+.titulo {
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#eliminarPedido {
+    width: 12px;
+    display: flex;
+    height: 12px;
+}
+
+#eliminarPedido svg {
+    color: #fff;
+}

@@ -1,0 +1,120 @@
+body,html{
+    font-family: "Montserrat", sans-serif;
+}
+html {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #08090a;
+}
+
+.contenedorrr {
+    width: 350px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    padding: 40px;
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    background-color: #08090D;
+    text-align: center;
+    color: #ffffff;
+}
+
+.logotipo {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.logotipo img {
+    height: 100%;
+    width: 100%;
+}
+.form-group{
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 40px;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+
+
+input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Montserrat";
+}
+
+
+.titulo {
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+footer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.logoTycom {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    margin-left: 5px;
+    display: flex;
+    text-align: center;
+
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+
