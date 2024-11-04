@@ -237,7 +237,7 @@ class pedidoController extends Controller
         $altura = 0;
 
         // Altura fija para encabezado e información general
-        $altura += 10; // Espacio para la imagen (30 mm + 5 mm de margen)
+        $altura += 30; // Espacio para la imagen (30 mm + 5 mm de margen)
         $altura += 10; // Altura del nombre de la tienda
         $altura += 8 * 4; // Información de la factura y cliente (4 líneas de 8 mm cada una)
 
